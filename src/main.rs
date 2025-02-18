@@ -57,4 +57,10 @@ fn main() {
           println!("");
    }
 
+   if weekdate == "Sat" || weekdate == "Sun" {
+       println!("");
+       printer.print("It's the weekend, you made it!");
+       println!("");
+   }
+
 }
