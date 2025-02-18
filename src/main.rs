@@ -17,7 +17,7 @@ fn main() {
      .build();
 
    if weekdate == "Mon" {
-          println!("");
+          println!(""); //I did it this way for readabliity, for me.
           printer.print("   5 days till the weekend, good luck...");        
           printer.print("---------------------------------------------");
           printer.print("|> Mon <    Tue      Wed      Thu      Fri  |");
