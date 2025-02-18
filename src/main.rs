@@ -14,7 +14,7 @@ fn main() {
         .time_delay(Duration::from_millis(20))
         .build();
 
-    println!(""); //I did it this way to make it easier to read for me. 
+    println!(""); //I did the new lines like this to make it more readable for me.
 
     if weekdate == "Mon" {
          
@@ -45,7 +45,7 @@ fn main() {
 
     if weekdate == "Fri" {
         
-        printer.print("1 day till the weekend, last day... u got this!");
+        printer.print("1 day till the weekend, last day, u got this!");
         printer.print("---------------------------------------------");
         printer.print("|  Mon      Tue      Wed      Thu    > Fri <|");
     }
