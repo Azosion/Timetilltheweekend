@@ -20,7 +20,7 @@ fn main() {
           println!("");
           printer.print("   5 days till the weekend, good luck...");        
           printer.print("---------------------------------------------");
-          printer.print("|> Mon <    Tue      Wen      Thr      Fri  |");
+          printer.print("|> Mon <    Tue      Wed      Thu      Fri  |");
           println!("");
    }
 
@@ -28,24 +28,24 @@ fn main() {
           println!("");
           printer.print("    4 days till the weekend, keep going!");
           printer.print("---------------------------------------------");
-          printer.print("|  Mon    > Tue <    Wen      Thr      Fri  |");
+          printer.print("|  Mon    > Tue <    Wed      Thu      Fri  |");
           println!("");
           
    }
 
-   if weekdate == "Wen" {
+   if weekdate == "Wed" {
           println!("");
           printer.print("   3 days till the weekend, half way there!");
           printer.print("---------------------------------------------");
-          printer.print("|  Mon      Tue    > Wen <    Thr      Fri  |");
+          printer.print("|  Mon      Tue    > Wed <    Thu      Fri  |");
           println!("");
    }
 
-   if weekdate == "Thr" {
+   if weekdate == "Thu" {
           println!("");
           printer.print("   2 days till the weekend, almost there");
           printer.print("---------------------------------------------");
-          printer.print("|  Mon      Tue      Wen    > Thr <    Fri  |");
+          printer.print("|  Mon      Tue      Wed    > Thu <    Fri  |");
           println!("");
    }
 
@@ -53,7 +53,7 @@ fn main() {
           println!("");
           printer.print("1 day till the weekend, last day... u got this!");
           printer.print("---------------------------------------------");
-          printer.print("|  Mon      Tue      Wen      Thr    > Fri <|");
+          printer.print("|  Mon      Tue      Wed      Thu    > Fri <|");
           println!("");
    }
 
