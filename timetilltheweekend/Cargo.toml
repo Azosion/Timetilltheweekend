@@ -1,9 +1,0 @@
-[package]
-name = "timetilltheweekend"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-chrono = "0.4.39"
-fancy_print = "0.1.0"
-time = "0.3.37"
