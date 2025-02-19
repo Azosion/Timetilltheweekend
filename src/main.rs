@@ -1,11 +1,11 @@
-use chrono::{DateTime, Datelike, Utc};
+use chrono::{DateTime, Datelike, Local};
 use fancy_print::{Animation, FancyPrinter};
 use std::time::{Duration, SystemTime};
 
 fn main() {
     let curr_time = SystemTime::now();
 
-    let datetime: DateTime<Utc> = curr_time.into();
+    let datetime: DateTime<Local> = curr_time.into();
 
     let weekdate = datetime.date_naive().weekday().to_string();
 
