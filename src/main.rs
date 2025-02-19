@@ -17,7 +17,7 @@ fn main() {
     println!(""); //I did the new lines like this to make it more readable for me.
 
     if weekdate == "Mon" {
-         
+         //I've separated the lines into 3 prints so that it lines up here, I could turn it all into one print tho.
         printer.print("   5 days till the weekend, good luck...");
         printer.print("---------------------------------------------");
         printer.print("|> Mon <    Tue      Wed      Thu      Fri  |");
@@ -38,7 +38,7 @@ fn main() {
 
     if weekdate == "Thu" {
         
-        printer.print("   2 days till the weekend, almost there");
+        printer.print("    2 days till the weekend, almost there");
         printer.print("---------------------------------------------");
         printer.print("|  Mon      Tue      Wed    > Thu <    Fri  |");
     }
@@ -52,6 +52,8 @@ fn main() {
 
     if weekdate == "Sat" || weekdate == "Sun" {
         
+        //TODO: add more flair to this msg on Sat and Sun 
+
         printer.print("It's the weekend, you made it!");
         
     }
