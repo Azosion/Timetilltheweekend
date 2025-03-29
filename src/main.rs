@@ -57,7 +57,8 @@ fn main() {
             //TODO: add more flair to this msg on Sat and Sun 
 
             println!("It's the weekend, you made it!");
-            
+            println!("");
+            println!("         \\\\(=^・^=)//      "     ); //arg backslashes!!
         }
         println!("");
 
@@ -77,6 +78,7 @@ fn main() {
             .build();
 
         println!(""); //I did the new lines like this to make it more readable for me.
+
 
         if weekdate == "Mon" {
             //I've separated the lines into 3 prints so that it lines up here, I could turn it all into one print tho.
@@ -117,9 +119,11 @@ fn main() {
             //TODO: add more flair to this msg on Sat and Sun 
 
             printer.print("It's the weekend, you made it!");
+            println!("");
+                      println!("         \\\\(=^・^=)//      "     ); //arg backslashes!!
             
         }
-        println!("");
-
+            println!("");
+            
+        }
     }
-}
