@@ -83,7 +83,7 @@ fn main() {
         if weekdate == "Mon" {
             //I've separated the lines into 3 prints so that it lines up here, I could turn it all into one print tho.
             printer.print("   5 days till the weekend, good luck...");
-            printer.print("---------------------------------------------");
+            printer.print("----------------------------------------------------");
             printer.print("|> Mon <    Tue      Wed      Thu      Fri  |");
         }
 
